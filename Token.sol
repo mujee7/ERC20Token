@@ -6,7 +6,7 @@ contract Token {
     string public name = "Mujee Token";
     string public symbol = "MJT";
     uint256 public decimals = 18;
-    uint256 public totalSupply;
+    uint256 public totalSupply ;
 
 mapping(address => uint256) public balanceOf;
 mapping (address=>mapping(address=>  uint256)) public allowance;
